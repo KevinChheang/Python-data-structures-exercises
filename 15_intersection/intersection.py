@@ -13,3 +13,6 @@ def intersection(l1, l2):
         >>> intersection([1, 2, 3], [4, 5, 6])
         []
     """
+    # using comprehension to mimic set intersection functionality
+    # only return values that appear in both list
+    return [value for value in l1 if value in l2]
